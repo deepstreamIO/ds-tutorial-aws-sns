@@ -1,0 +1,13 @@
+{
+  "name": "ds-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "the deepstream server for the aws sns tutorial",
+  "main": "start.js",
+  "dependencies": {
+    "deepstream.io": "latest"
+  },
+  "author": "Wolfram Hempel",
+  "license": "MIT",
+  "homepage": "http://deepstream.io"
+}

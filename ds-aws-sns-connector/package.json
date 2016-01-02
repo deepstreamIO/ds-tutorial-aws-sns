@@ -1,0 +1,14 @@
+{
+  "name": "ds-aws-sns-connector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Relays messages from the AWS Simple Notification Service to a deepstream server",
+  "main": "start.js",
+  "dependencies": {
+    "deepstream.io-client-js": "latest",
+    "aws-sdk": "latest"
+  },
+  "author": "Wolfram Hempel",
+  "license": "MIT",
+  "homepage": "http://deepstream.io"
+}
