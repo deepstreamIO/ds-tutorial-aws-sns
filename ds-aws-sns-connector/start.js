@@ -40,8 +40,7 @@ function handleIncomingMessage( msgType, msgData ) {
 			TopicArn: msgData.TopicArn
 		}, onAwsResponse );
 	} else if( msgType === 'Notification' ) {
-		console.log( msgData.Subject, parseJSON( msgData.Message ) );
-		ds.event.publish( msgData.Subject, parseJSON( msgData.Message ) );
+		ds.event.emit( msgData.Subject, parseJSON( msgData.Message ) );
 	} else {
 		console.log( 'Unexpected message type ' + msgType );
 	}
