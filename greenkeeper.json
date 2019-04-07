@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "ds-aws-sns-connector/package.json",
+        "ds-server/package.json"
+      ]
+    }
+  }
+}
